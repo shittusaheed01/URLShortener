@@ -2,6 +2,10 @@
 
 This is a simple URL shortener web application that allows users to shorten long URLs into shorter ones. In addition, it keeps track of the number of times each shortened link has been clicked, providing a read count for each link.
 
+### Demo
+---
+- [URL Shortener](https://repulsive-bedclothes-tuna.cyclic.app/)
+- [URL Shortener](https://repulsive-bedclothes-tuna.cyclic.app/)
 ### Technologies Used
 ---
 - Node.js
