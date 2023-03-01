@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, greenyellow, dodgerblue);
+  font-family: "Sansita Swashed", cursive;
+}
+
+.main{
+  max-width: 900px;
+  margin: auto;
+}
+  
+form{
+  width: 80%;
+  margin: auto;
+}
+
+.center {
+  position: relative;
+  padding: 30px 30px;
+  background: #fff;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 20px;
+  max-width: 500px;
+}
+
+.center h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+  border-left: 5px solid dodgerblue;
+  border-radius: 5px;
+  padding: 10px;
+  color: #000;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.center .inputbox {
+  margin: auto;
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+}
+.center .inputbox input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  border: 2px solid #000;
+  outline: none;
+  background: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+.center .inputbox:last-child {
+  margin-bottom: 0;
+}
+.center .inputbox span {
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  font-size: 1em;
+  transition: 0.6s;
+  font-family: sans-serif;
+}
+.center .inputbox input:hover ~ span,
+.center .inputbox input:focus ~ span,
+.center .inputbox input:valid ~ span
+ {
+  transform: translateX(-13px) translateY(-35px);
+  font-size: 1em;
+}
+.center button{
+  outline: none;
+  background: none;
+  padding: 10px;
+  border-radius: 10px;
+  width: 50%;
+  background: dodgerblue;
+  color: #fff;
+  border: #fff;
+}
+.center button:hover  {
+  cursor: pointer;
+  background: linear-gradient(45deg, greenyellow, dodgerblue);
+}
+/* .shortened{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+} */
+
+.shortened h1{
+    margin: 10px auto 20px;
+    padding: 0;
+    width: fit-content;
+    text-align: center;
+    font-size: 2em;
+    border-bottom: 5px solid dodgerblue;
+    padding: 10px;
+    color: #000;
+    letter-spacing: 5px;
+    font-weight: bold;
+    padding-left: 10px; 
+}
+
+ul{
+    background-color: #fff;
+    margin-bottom: 10px;
+    position: relative;
+    padding: 30px 30px;
+    border-radius: 10px;
+    /* width: 30%; */
+    /* margin-top: 20px; */
+    list-style: none;
+}
+ul li {
+  font-size: 1em;
+  transition: 0.6s;
+  font-family: sans-serif;
+  /* border-bottom: 10px; */
+}
+
+ul li span{
+    display: block;
+    font-size: 1.4em;
+    color: #000;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin: 10px 0px;
+    /* padding-left: 10px;  */
+}
+
+#errLink{
+  display: block;
+  
+}

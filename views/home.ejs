@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>URLS</title>
+  </head>
+  <body>
+    <div class="main">
+      
+  <div class="center">
+    <h1>Shorten A Url</h1>
+    <form action="/" method="post">
+      <div class="inputbox">
+        <input type="text" name="originalURL" id="originalURL" required="required">
+        <span>Original URL</span>
+      </div>
+      <div class="inputbox">
+        <input type="text" name="customUrl" id="customUrl">
+        <span>Custom URL (optional)</span>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+
+<div class="shortened">
+      <h1>Shortened URLs:</h1>
+      <% if (urls.length >= 1) { %>
+          <% urls.forEach(function(item) { %>
+            <ul>
+            <li> <span> OriginalUrl:</span> <a href="<%= item.originalURL %>"target="_blank"><%= item.originalURL %></a></li>
+            <li> <span> ShortURL:</span> add <%= item.link%> to the url above or click <a href="<%= item.link %>"target="_blank"><%= item.link%></a></li>
+            <li> <span>View Count:</span> <%= item.read_Count%></li>
+          </ul>
+          <% }); %>
+  
+        
+        <a href="/next">next page</a>
+      <% } else { %>
+        <p>No Shortened URL yet</p>
+      <% } %>
+
+
+</div>
+
+
+    </div>
+  </body>
+</html>
