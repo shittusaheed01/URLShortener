@@ -1,6 +1,6 @@
 # URL Shortener with Read Count and Custom URLs
 
-This is a simple URL shortener web application that allows users to shorten long URLs into shorter ones. In addition, it keeps track of the number of times each shortened link has been clicked, providing a read count for each link.
+This is a URL shortener that allows you to create short URLs for long links, and also keeps track of the number of times each short link has been clicked. Additionally, you can create custom short URLs of your choice.
 
 ### Demo
 ---
