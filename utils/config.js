@@ -1,13 +1,15 @@
+/* eslint-disable node/no-unsupported-features/es-syntax */
 // require('dotenv').config()
 import dotenv from 'dotenv';
+
 dotenv.config();
 
-export default  {
+export default {
     PORT: process.env.PORT,
-    mongoURL:process.env.MONGO_URL,
+    mongoURL: process.env.MONGO_URL,
     jwtSecret: process.env.JWT_SECRET,
     jwtExpiration: process.env.JWT_EXPIRES_IN,
-    dbLocal: process.env.DB_LOCAL,
-}
+    dbLocal: process.env.DB_LOCAL
+};
 
 // module.exports = config;

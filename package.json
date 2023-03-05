@@ -1,32 +1,48 @@
 {
-  "name": "URLShortener",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "debug": "ndb index.js"
-  },
-  "keywords": [],
-  "author": "",
-  "type": "module",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.20.1",
-    "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
-    "ejs": "^3.1.8",
-    "express": "^4.18.2",
-    "joi": "^17.7.1",
-    "jsonwebtoken": "^9.0.0",
-    "mongoose": "^6.9.2",
-    "nanoid": "^4.0.1",
-    "slug": "^8.2.2"
-  },
-  "devDependencies": {
-    "ndb": "^1.1.5",
-    "nodemon": "^2.0.20"
-  }
+    "name": "URLShortener",
+    "version": "1.0.0",
+    "description": "",
+    "node/no-unsupported-features/es-syntax": [
+        "error",
+        {
+            "version": ">=6.0.0",
+            "ignores": ["import"]
+        }
+    ],
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "debug": "ndb index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "type": "module",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.1",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "ejs": "^3.1.8",
+        "express": "^4.18.2",
+        "joi": "^17.7.1",
+        "jsonwebtoken": "^9.0.0",
+        "mongoose": "^6.9.2",
+        "nanoid": "^4.0.1",
+        "slug": "^8.2.2"
+    },
+    "devDependencies": {
+        "ndb": "^1.1.5",
+        "nodemon": "^2.0.20",
+        "eslint": "^5.16.0",
+        "eslint-config-airbnb": "^17.1.0",
+        "eslint-config-prettier": "^4.1.0",
+        "eslint-plugin-import": "^2.17.2",
+        "eslint-plugin-jsx-a11y": "^6.2.1",
+        "eslint-plugin-node": "^8.0.1",
+        "eslint-plugin-prettier": "^3.0.1",
+        "eslint-plugin-react": "^7.12.4",
+        "prettier": "^1.17.0"
+    }
 }
