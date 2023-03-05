@@ -2,20 +2,13 @@
 
 This is a URL shortener that allows you to create short URLs for long links, and also keeps track of the number of times each short link has been clicked. Additionally, you can create custom short URLs of your choice.
 
-<<<<<<< HEAD
-### Demo
-
----
-
--   [URL Shortener](https://repulsive-bedclothes-tuna.cyclic.app/)
--   [URL Shortener](https://repulsive-bedclothes-tuna.cyclic.app/)
-
-=======
 ### Live Site
+
 ---
-- [Live Site 1](https://saheedshortener.onrender.com)
-- [Live Site 2](https://repulsive-bedclothes-tuna.cyclic.app)
->>>>>>> 2ec5823cd0addad886d173f32b86c3329b36967c
+
+-   [Live Site 1](https://saheedshortener.onrender.com)
+-   [Live Site 2](https://repulsive-bedclothes-tuna.cyclic.app)
+
 ### Technologies Used
 
 ---
